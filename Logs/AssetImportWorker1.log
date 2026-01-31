@@ -1,0 +1,1363 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.15f1 (0707b6d1e918) revision 460726'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lenovo" at "2026-01-20T10:34:59.5927891Z"
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16107 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-01-20T10:34:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Lenovo/My project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51254
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Lenovo/My project
+C:/Users/Lenovo/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21304]  Target information:
+
+Player connection [21304]  * "[IP] 10.116.213.195 [Port] 0 [Flags] 2 [Guid] 146435739 [EditorId] 146435739 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-FNI815FS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21304] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 12.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.15f1 (0707b6d1e918)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ac)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.7705
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001581 seconds.
+- Loaded All Assemblies, in  0.489 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 924ms
+	BeginReloadAssembly (196ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (194ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (169ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (390ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Lenovo"
+[Licensing::IpcConnector] LicenseClient-Lenovo channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lenovo-6000.2.15" at "2026-01-20T10:35:01.9496664Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              067ae4de33ba4188b60229b0165a0e9e
+  Correlation Id:          dd7c100e5a8df36bf42d215782ff1f41
+  External correlation Id: 909423016173431360
+  Machine Id:              MeeVlPLDorwzHihrW8CDWgdIOfs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Lenovo-6000.2.15" (connect: 0.00s, validation: 0.00s, handshake: 2.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lenovo-6000.2.15-notifications" at "2026-01-20T10:35:03.9853528Z"
+[Licensing::Module] Licensing Background thread has ended after 4.39s
+[Licensing::Module] Licensing is initialized (took 2.18s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968355647504-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  3.107 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 3987ms
+	BeginReloadAssembly (2376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (637ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (180ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (884ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (712ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6813 unused Assets / (6.1 MB). Loaded Objects now: 7525.
+Memory consumption went from 140.9 MB to 134.9 MB.
+Total: 16.794900 ms (FindLiveObjects: 0.933600 ms CreateObjectMapping: 1.796100 ms MarkObjects: 7.546600 ms  DeleteObjects: 6.516600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3450.441113 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '367f7b7bcac7da922247244be0d96c3d') in 0.3047723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Serializable/EmotionItem.cs
+  artifactKey: Guid(7e3dfde409ad2d54fb6ff9cb357f506d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Serializable/EmotionItem.cs using Guid(7e3dfde409ad2d54fb6ff9cb357f506d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '768a66ea15f718ed2a29f0310f7ff16a') in 0.0167576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Serializable/PoseItem.cs
+  artifactKey: Guid(62f3ccd42bbd9d84992e10d2320f0199) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Serializable/PoseItem.cs using Guid(62f3ccd42bbd9d84992e10d2320f0199) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f73366899ef59169f13c3ef40e65c5cc') in 0.0072621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Dialogue System/Scripts/Generated/CustomFieldSO.Variables.cs
+  artifactKey: Guid(38e0aa921a31fae4182f6fa8ccd7054e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Scripts/Generated/CustomFieldSO.Variables.cs using Guid(38e0aa921a31fae4182f6fa8ccd7054e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8def04ed846e814bbc6e488d044275e') in 0.0045675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11e9b602ac2aed66f80918a8bb0d7a7e') in 0.0418446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Fields/Emotion.asset
+  artifactKey: Guid(d994cbb60b7c41c45ba114d9214dd91c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Fields/Emotion.asset using Guid(d994cbb60b7c41c45ba114d9214dd91c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05290c2e624f9399d48efa7aacccae4b') in 0.0043884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Enums/Transition.cs
+  artifactKey: Guid(5744771a944fa064797667efaff85127) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Enums/Transition.cs using Guid(5744771a944fa064797667efaff85127) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f89f0c81be57195932e6ed7712fb46f') in 0.0038522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/IndieDevs/Dialogue System/Resources/DialogueSettings.asset
+  artifactKey: Guid(ea76b01d7b62bf947985ece2ba34a874) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Resources/DialogueSettings.asset using Guid(ea76b01d7b62bf947985ece2ba34a874) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17418d26001ad007f5206b8f7e5ba1ed') in 0.005811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '073e46bb97443d2ce8461f713d694924') in 0.048024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c068d44bf9b4bace1b75f11ecda17cc3') in 0.0502968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Dialogue System/Scripts/Generated/EventNodeInternal.Fields.generated.cs
+  artifactKey: Guid(dd48b538811b6814f9c57b9fc397f474) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Scripts/Generated/EventNodeInternal.Fields.generated.cs using Guid(dd48b538811b6814f9c57b9fc397f474) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76cd06f1efd354c69df569693718659f') in 0.0045478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Animations/Transitions/Slide.controller
+  artifactKey: Guid(0569d81d452ffe44292234ef574e69e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Animations/Transitions/Slide.controller using Guid(0569d81d452ffe44292234ef574e69e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '541a2c08d88a4d7a998cb1a7fa86b0fe') in 0.0099942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eeb8fd615bb586361a385155df6d0f16') in 0.0109097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee96f29f30df3218e0662d4a1c4f5606') in 0.0279198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/school stairs day.png
+  artifactKey: Guid(53da5380d05cd9d4ebab939911672646) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/school stairs day.png using Guid(53da5380d05cd9d4ebab939911672646) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ce0eb97198414f1d32a6e4195e34f60') in 0.0349935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/Study and Relax.mp3
+  artifactKey: Guid(d7838a90a51b1904996c4a38a749dc33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/Study and Relax.mp3 using Guid(d7838a90a51b1904996c4a38a749dc33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f472b4b6d203021389704808f52abe14') in 0.5470049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/Dark Hallway.mp3
+  artifactKey: Guid(49a902b9f674bed4b8b45a52403b17b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/Dark Hallway.mp3 using Guid(49a902b9f674bed4b8b45a52403b17b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60447ac09e77628f3a2101a556a577b0') in 0.1451917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Dialogues/VN Dialogue Registry.asset
+  artifactKey: Guid(89b68fcaa27de2846b094a180bef7945) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Dialogues/VN Dialogue Registry.asset using Guid(89b68fcaa27de2846b094a180bef7945) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe10662400ed5d5de94652b053a6db24') in 0.004589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98523efa8230895a3ae08cd79f82748c') in 0.0044883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/BG Audio Registry.asset
+  artifactKey: Guid(1669a243ec9c69b41954ec203f692d92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/BG Audio Registry.asset using Guid(1669a243ec9c69b41954ec203f692d92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6ba17d214b5bd9972bf0ad261dd2557') in 0.0041077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e6365ca62f01952e3268e44b9a43f75') in 0.0063774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_purp.png
+  artifactKey: Guid(0cb24ba80b094824d890aa7ad2070196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_purp.png using Guid(0cb24ba80b094824d890aa7ad2070196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fc476f2c323c53ea2332179ae29d6a8') in 0.0092024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_evilsmirk.png
+  artifactKey: Guid(b9d1b6a5641495b47a17f9c674f542e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_evilsmirk.png using Guid(b9d1b6a5641495b47a17f9c674f542e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ababd5c95d6bf3ab9b66318cb41366fb') in 0.0101015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_upset.png
+  artifactKey: Guid(5dfb03138edad2f46a59223a7e6615ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_upset.png using Guid(5dfb03138edad2f46a59223a7e6615ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1963feb08932d5b9149f82f6839adec6') in 0.0093334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_frown.png
+  artifactKey: Guid(9f033b2a438bbe74c99787f8e26432c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_frown.png using Guid(9f033b2a438bbe74c99787f8e26432c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c77244cad38542ff63f79546a8cc076') in 0.0104587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_happy.png
+  artifactKey: Guid(93a5709881fc3814cb2ed8db81a12adf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_happy.png using Guid(93a5709881fc3814cb2ed8db81a12adf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1735b4efd059a9cd865997bf577c745') in 0.0086865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/And Just Like That.mp3
+  artifactKey: Guid(2bee57d7c2f05e74386bc8d47ffbfc1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Audio/BG/And Just Like That.mp3 using Guid(2bee57d7c2f05e74386bc8d47ffbfc1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7eb88e38fb0c7f97fde3c7daf0e1a889') in 0.2617429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_upsettalk.png
+  artifactKey: Guid(b26db03fe616f3e43acd555cf3cc28d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_upsettalk.png using Guid(b26db03fe616f3e43acd555cf3cc28d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ba4d1a00151552b8b1553e3fd3db6b8') in 0.009729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_pout.png
+  artifactKey: Guid(7e60a7e8536a0e84a8ea0cd719ebeeec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_pout.png using Guid(7e60a7e8536a0e84a8ea0cd719ebeeec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb073381862f09e6d78d6cdd602b50a5') in 0.010357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_normal.png
+  artifactKey: Guid(a872e96e6e2f83148928516d8ab22698) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_normal.png using Guid(a872e96e6e2f83148928516d8ab22698) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1073902a31244ba87839fbe1e15b55b5') in 0.0104667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_tears.png
+  artifactKey: Guid(0700d52ae2bac764ca0603757bc8ac96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_tears.png using Guid(0700d52ae2bac764ca0603757bc8ac96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88158d8f2d85622820b911af946e2856') in 0.0102965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_disgusted.png
+  artifactKey: Guid(92ed216dd595d9b45a5d6aa6f1bcee36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_disgusted.png using Guid(92ed216dd595d9b45a5d6aa6f1bcee36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dfde7420128b6196b747a975aec7eb55') in 0.0090227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'f866411b5c0b95cfd51b0d183f93787f') in 0.0050095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd687082548127fd526fcaa821aff86') in 0.0051777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_huh.png
+  artifactKey: Guid(f49cae24b4cd64a41bde121cf2cff44e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_huh.png using Guid(f49cae24b4cd64a41bde121cf2cff44e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d759df69c3b989274ac8820cbc29eab') in 0.0106444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/beach a day.png
+  artifactKey: Guid(699bb12977974b641ba1e0c1406ceb29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/beach a day.png using Guid(699bb12977974b641ba1e0c1406ceb29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8abbeb6a294e057abc7f15603daf1df9') in 0.0110374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd92eae7c15c328839e2a412e1e1247da') in 0.0044139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Animations/Transitions/Stage.controller
+  artifactKey: Guid(33d4ff3d0f0d5204d8167b0a4728b235) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Animations/Transitions/Stage.controller using Guid(33d4ff3d0f0d5204d8167b0a4728b235) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb799bed9a8c88483ecaa5aa8f747a58') in 0.0063618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_normalblush.png
+  artifactKey: Guid(a20d76e4c715b164f8056295f2db3a63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_normalblush.png using Guid(a20d76e4c715b164f8056295f2db3a63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a205dd18f15efc9ba868f1e3fbbeec3a') in 0.0131373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_happy.png
+  artifactKey: Guid(99cef0ef65a8864498dc4bf2ac83d023) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_happy.png using Guid(99cef0ef65a8864498dc4bf2ac83d023) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de39ebe1dbe5b1e27bd21f5d12fcf92f') in 0.0104432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_huh.png
+  artifactKey: Guid(e303287ecb61b494eaaeda27d0169d0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_huh.png using Guid(e303287ecb61b494eaaeda27d0169d0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcc452858c1faba3a3c20932e2c45ca1') in 0.0129074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_upsettalk.png
+  artifactKey: Guid(14f8154746d00144f95efe84e0e48577) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_upsettalk.png using Guid(14f8154746d00144f95efe84e0e48577) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e55126383b2ca614aeeb719fd3857ce6') in 0.012256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Dialogues/VN Dialogue 2A.asset
+  artifactKey: Guid(97771465cb9556c41bace43a4de3fe55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Dialogues/VN Dialogue 2A.asset using Guid(97771465cb9556c41bace43a4de3fe55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7175290d427fed396154ca355f11ea2f') in 0.0034503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aabf47b85dcfdad2a72bcf4ebbab9615') in 0.0060702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_normal.png
+  artifactKey: Guid(1e9b1aaf2c6516a468674a77bb89fdc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_normal.png using Guid(1e9b1aaf2c6516a468674a77bb89fdc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01860052084819a0959a066ef4961603') in 0.0096919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/IndieDevs/Dialogue System/Scripts/Generated/ChoiceNodeInternal.Fields.generated.cs
+  artifactKey: Guid(359d24e3fc921d5448a17069d41551da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Scripts/Generated/ChoiceNodeInternal.Fields.generated.cs using Guid(359d24e3fc921d5448a17069d41551da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '142028bdd7aab34ed1d6cd17a0eca461') in 0.003756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Scenes/Beach.unity
+  artifactKey: Guid(40f198e63e9366144b5455e3ec3b4d49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Scenes/Beach.unity using Guid(40f198e63e9366144b5455e3ec3b4d49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7a27479be3bcfb7598ba825852c1544') in 0.0054447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Scenes/SchoolStairs.unity
+  artifactKey: Guid(f8d2da0b2142f4d4ab5d2fd5158a0501) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Scenes/SchoolStairs.unity using Guid(f8d2da0b2142f4d4ab5d2fd5158a0501) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fce7bf7d173729e69e7170e5f192c192') in 0.0038755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_poutangry.png
+  artifactKey: Guid(b35699477bd1c3c4c959360b032d395e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_poutangry.png using Guid(b35699477bd1c3c4c959360b032d395e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2ef8b2a81a8dbd1cc6bac930456ad0c') in 0.0125594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_evilsmirk.png
+  artifactKey: Guid(df9250e8d8498aa4fa70c508fbeb3e61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_evilsmirk.png using Guid(df9250e8d8498aa4fa70c508fbeb3e61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24ae9a0e618dc0afe04162993b511754') in 0.0122216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_blush.png
+  artifactKey: Guid(6792e95a51970d441bea7df6635a97d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_blush.png using Guid(6792e95a51970d441bea7df6635a97d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3907035814ee33a7f8fd7ad494f179ee') in 0.0102662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_frown.png
+  artifactKey: Guid(b27d0de1cea6f9640a92ec94cfae099e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_frown.png using Guid(b27d0de1cea6f9640a92ec94cfae099e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b5ea79f0896a301f560135a8e652d76') in 0.0130558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_angrytalk.png
+  artifactKey: Guid(e1c3ac49352b4634ea11f8e7bdc0206b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_angrytalk.png using Guid(e1c3ac49352b4634ea11f8e7bdc0206b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8ef2361972b2fbb13bd125d0fca6e9c') in 0.0114229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_upset.png
+  artifactKey: Guid(dd207e5dfeaac2e43afc2246fbd6af9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_upset.png using Guid(dd207e5dfeaac2e43afc2246fbd6af9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c7cb6e4c84c5e509b0d2755035d96a3') in 0.0130909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_angrytalk.png
+  artifactKey: Guid(226a3a1038469214f99f83614a746761) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_angrytalk.png using Guid(226a3a1038469214f99f83614a746761) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd04467429f0146043aad3cb4feab90c') in 0.0084602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_poutangry.png
+  artifactKey: Guid(de6ac765d0124244b8d43f59557d17ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_poutangry.png using Guid(de6ac765d0124244b8d43f59557d17ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bc2d2e68143b351d3bdd0f82dfc56a0') in 0.0133684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Dialogue System/Editor/Generated/CustomFieldView.cs
+  artifactKey: Guid(9b00aaff35ff17546890470181e04e25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Editor/Generated/CustomFieldView.cs using Guid(9b00aaff35ff17546890470181e04e25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6741a715f7e444081b6ee191af060df1') in 0.0035007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Fields/Position.asset
+  artifactKey: Guid(8b0827e7daffc0349baeee0d7d7b03e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Fields/Position.asset using Guid(8b0827e7daffc0349baeee0d7d7b03e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b94dbc4e1ac4ee0ef4ee174e9e7e2c9b') in 0.0029755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_pout.png
+  artifactKey: Guid(af06e35e2c80a2e47821e790f31c1269) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_pout.png using Guid(af06e35e2c80a2e47821e790f31c1269) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '497e0c5c33ba427eb15fc136e498d5f2') in 0.0099717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_pout.png
+  artifactKey: Guid(a1f328cf76be0d84e80b0d8835013b72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_pout.png using Guid(a1f328cf76be0d84e80b0d8835013b72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b881d3417c59936176f5b5ebcc72288') in 0.0100937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_evilsmirk.png
+  artifactKey: Guid(f521bd45751734d4ca115e8586ed75ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_evilsmirk.png using Guid(f521bd45751734d4ca115e8586ed75ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e48780713630d649d8efa27109b6b7d') in 0.0083102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_normal.png
+  artifactKey: Guid(d38c4fe13fe872a4882279b6e30025bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_normal.png using Guid(d38c4fe13fe872a4882279b6e30025bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7e060545c7baee63be97f48a6f29331') in 0.0096459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_pout.png
+  artifactKey: Guid(dc5f26a1046486f4eada946983392270) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_pout.png using Guid(dc5f26a1046486f4eada946983392270) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93173b0f37347c72c6007b0f19af5abe') in 0.0095091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_disgusted.png
+  artifactKey: Guid(f3e0342101ec91141b9326c5f594c32a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_disgusted.png using Guid(f3e0342101ec91141b9326c5f594c32a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3d46fe9b30ad19e0c80e3451c2aa63d') in 0.015648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_angrytalk.png
+  artifactKey: Guid(16cc62a836d38664eb407c499a7dd81c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_angrytalk.png using Guid(16cc62a836d38664eb407c499a7dd81c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a349a8428a88009b5f0c3f91973ff9cd') in 0.0094034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_normalblush.png
+  artifactKey: Guid(6b250a2a59a28e54eb5c1b4cf455077f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_normalblush.png using Guid(6b250a2a59a28e54eb5c1b4cf455077f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '107446b2428655c3eeafafc909d7cb06') in 0.0101761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_poutangry.png
+  artifactKey: Guid(b2b0401ec23353d4d88a6a9959cc2a16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_poutangry.png using Guid(b2b0401ec23353d4d88a6a9959cc2a16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd92f2af642b780b6908debb4adad66e5') in 0.0093293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_upsettalk.png
+  artifactKey: Guid(71fc71a8cc0faa64da2c9b963f08ecce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_upsettalk.png using Guid(71fc71a8cc0faa64da2c9b963f08ecce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bccac3054ad54a4c0f7d123d3d4dbe8') in 0.0089544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/SO/AudioRegistrySO.cs
+  artifactKey: Guid(9b917bb8dae5c5a438ec010cda514854) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/SO/AudioRegistrySO.cs using Guid(9b917bb8dae5c5a438ec010cda514854) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1c49b1b6069bc62f5b54fa1ea7a7d12') in 0.0063866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed16997fe0715620683fbabab659fb47') in 0.0042594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_upsettalk.png
+  artifactKey: Guid(0ce0267f6e5feaa4e88dcc519a42e25e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_upsettalk.png using Guid(0ce0267f6e5feaa4e88dcc519a42e25e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3770426ba368c60653b4e4d0ec037f63') in 0.0119799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_talk.png
+  artifactKey: Guid(52e128218b9cb95418396c22391bd31e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_talk.png using Guid(52e128218b9cb95418396c22391bd31e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd81f502e2791f0971063d321217896e1') in 0.0139636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_upset.png
+  artifactKey: Guid(f1e50e4621046764a876bfb00afa6475) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_upset.png using Guid(f1e50e4621046764a876bfb00afa6475) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae1e557c609c2b3849fc05dedfa50a2e') in 0.0112554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_tears.png
+  artifactKey: Guid(7ae2690a7213b6740b0e06075e0d18a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_tears.png using Guid(7ae2690a7213b6740b0e06075e0d18a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54ac48f466a283aff93782f80358aea7') in 0.0118158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_evilsmirk.png
+  artifactKey: Guid(d570b3c33ecdf914a9b53ee0feaaf6b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_evilsmirk.png using Guid(d570b3c33ecdf914a9b53ee0feaaf6b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14812a73cf09bbb238291ee7065368a2') in 0.0148828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_pout.png
+  artifactKey: Guid(eea693621f1059845b2661a50b121365) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_pout.png using Guid(eea693621f1059845b2661a50b121365) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7fa21c6bf275155d5add97859bd1e2d4') in 0.0130823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_normal.png
+  artifactKey: Guid(73b95b1b36a3cdf4c9b6d3e0f40adce6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_normal.png using Guid(73b95b1b36a3cdf4c9b6d3e0f40adce6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80b82ecb9d49fee238ce06160227b10a') in 0.0147591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_disgusted.png
+  artifactKey: Guid(3353f501d60b898488e6104ff7f6657e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_disgusted.png using Guid(3353f501d60b898488e6104ff7f6657e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9d70fbc1bdc290e14c880ecca64a4b0') in 0.0126211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_blush.png
+  artifactKey: Guid(c6c645666b05e374a89700521538e298) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_blush.png using Guid(c6c645666b05e374a89700521538e298) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b85081693fcec9c5043f013c215d8bb8') in 0.0140238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_talk.png
+  artifactKey: Guid(45f409b0efcfb064e894023fc6d45715) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_talk.png using Guid(45f409b0efcfb064e894023fc6d45715) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37d63132cf8387939e3f9f20dfd5bba1') in 0.0134368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_pout.png
+  artifactKey: Guid(7b2acc20181f77f419328004c7b1de1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_pout.png using Guid(7b2acc20181f77f419328004c7b1de1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '444ab78a8f4fa68b6274dac8cf1c670b') in 0.0138106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_blush.png
+  artifactKey: Guid(8766e0699cf01534ead2b3b9aa9023d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_blush.png using Guid(8766e0699cf01534ead2b3b9aa9023d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '712edbcaaf2cb22be131286fe3cd7109') in 0.0097981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_upsettalk.png
+  artifactKey: Guid(e421f8ffae4c9654e9900bff751584ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_upsettalk.png using Guid(e421f8ffae4c9654e9900bff751584ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56a7d70e28b8cf1a20916ae59c7091e7') in 0.0151936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_purp.png
+  artifactKey: Guid(96d6733679059f14fb644bc429e80f77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_purp.png using Guid(96d6733679059f14fb644bc429e80f77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b7e0a5338177fd827b295d1a41aff8a') in 0.0097448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_normalblush.png
+  artifactKey: Guid(e5751749ea9c04b4786e59af27771ef5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_normalblush.png using Guid(e5751749ea9c04b4786e59af27771ef5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd529104481fdee0a4f6d1932b1c877ca') in 0.0136696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_talk.png
+  artifactKey: Guid(37c619ebde92be34ba00bece1ff65458) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_talk.png using Guid(37c619ebde92be34ba00bece1ff65458) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa741ffea7ab79f8776b13ebbe83517e') in 0.0127956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_normal.png
+  artifactKey: Guid(5e484cd327701444db6c45a103615f0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_normal.png using Guid(5e484cd327701444db6c45a103615f0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45bc2bf5c5496aa2902e079de46237e9') in 0.0110974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_happy.png
+  artifactKey: Guid(5011675d3a9c22345af4752006ef5b5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_happy.png using Guid(5011675d3a9c22345af4752006ef5b5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '757c9435e312489d728dfe9a504406b8') in 0.0105104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_disgusted.png
+  artifactKey: Guid(9b85a5a2ef6c7e7479b91d1b55704592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_disgusted.png using Guid(9b85a5a2ef6c7e7479b91d1b55704592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89e5a6a0ad56f4c9df6aac364a29eca6') in 0.0095634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_upset.png
+  artifactKey: Guid(7d028072c9f6d7647af8de8847f47991) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_upset.png using Guid(7d028072c9f6d7647af8de8847f47991) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b42b8473b3377ce1cf9d225ab6f1d68d') in 0.0133264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_evilsmirk.png
+  artifactKey: Guid(8b1d55508798ea04184b56a6e09c6cd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_evilsmirk.png using Guid(8b1d55508798ea04184b56a6e09c6cd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33611929b44acf6b1c24d4a7a4ddcf7a') in 0.0116142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_upset.png
+  artifactKey: Guid(a2670f17c05f2f94bb212e10db1a5c31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_upset.png using Guid(a2670f17c05f2f94bb212e10db1a5c31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2b29114fe5596f2ba743cb604a41151') in 0.0118329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_talk.png
+  artifactKey: Guid(23f566c02bc66ef47936ede747a3f10f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_talk.png using Guid(23f566c02bc66ef47936ede747a3f10f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1569da08e0eface7673f9623b2412e1f') in 0.0102961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Characters/Chinatsu.prefab
+  artifactKey: Guid(cc997cef8fb3ee545b53ba1c4d5c8c4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Characters/Chinatsu.prefab using Guid(cc997cef8fb3ee545b53ba1c4d5c8c4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a511d94893c62206093a4c91646e55a5') in 0.0371468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_frown.png
+  artifactKey: Guid(cc90d19761208bf4d999ce0fccd44c6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_frown.png using Guid(cc90d19761208bf4d999ce0fccd44c6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e1c57972564bfd291b7002a77276a0e') in 0.0092494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_upset.png
+  artifactKey: Guid(582c0d1818f6df34b8d11c630a0f5bf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_upset.png using Guid(582c0d1818f6df34b8d11c630a0f5bf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8927bd170d299c65c8bafc6929b5ce52') in 0.0116091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_upsettalk.png
+  artifactKey: Guid(be459a5871dd580458b6fd810542b7b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_upsettalk.png using Guid(be459a5871dd580458b6fd810542b7b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd15d9af35a2b386973692f985f38685f') in 0.0098391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Characters/Kohaku.prefab
+  artifactKey: Guid(e81986a2bf7be4e41946d8b84d9a34d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Characters/Kohaku.prefab using Guid(e81986a2bf7be4e41946d8b84d9a34d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a265a7e1ed6d1dc149adc01799879c7') in 0.0136596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_tears.png
+  artifactKey: Guid(2c395dbbfbe02aa458c503598ce8af8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_tears.png using Guid(2c395dbbfbe02aa458c503598ce8af8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f8f839c9dafaf0c454e74fdcc70765b') in 0.015352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_normalblush.png
+  artifactKey: Guid(de7b414c62111ae439eb6481f71be2b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_normalblush.png using Guid(de7b414c62111ae439eb6481f71be2b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '335a70af663a98e5951ff8a6c3b8ccee') in 0.0104735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Other/Dialogue Trigger.prefab
+  artifactKey: Guid(ec38458fbb804fa4d8833858e04f7030) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Other/Dialogue Trigger.prefab using Guid(ec38458fbb804fa4d8833858e04f7030) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee323f2f104a319c090dd82bd60182d7') in 0.0039955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_purp.png
+  artifactKey: Guid(9e37b6892af6d044fb8db9b856fb66a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schwi_purp.png using Guid(9e37b6892af6d044fb8db9b856fb66a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62da7df9e3dfe7db0efb798c8c6c8e1c') in 0.0162661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Scripts/Managers/HistoryManager.cs
+  artifactKey: Guid(05694e9c2a3f3494b93d415cb11740f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Scripts/Managers/HistoryManager.cs using Guid(05694e9c2a3f3494b93d415cb11740f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3dd9124cd84717b848d0255abad4238') in 0.0039115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Scripts/Utils/DialogueTrigger.cs
+  artifactKey: Guid(acd10df31397ace43adb45166f20c906) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Scripts/Utils/DialogueTrigger.cs using Guid(acd10df31397ace43adb45166f20c906) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2aa089bee40d3a2c3beeba271b1b148') in 0.0049025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/UI/Objects/Button.prefab
+  artifactKey: Guid(3d3155eaf32851d44adb9ac7a9adc603) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/UI/Objects/Button.prefab using Guid(3d3155eaf32851d44adb9ac7a9adc603) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22192dee58ce1c8b27540c0e405cb4a0') in 0.0371179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/UI/Main Menu Canvas.prefab
+  artifactKey: Guid(a5f527bca8055c044873528e21726e7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/UI/Main Menu Canvas.prefab using Guid(a5f527bca8055c044873528e21726e7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07924ee7d665d40cd8b9ee0c50828460') in 0.031539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/UI/Objects/VN Choice.prefab
+  artifactKey: Guid(a8f2200dd331d23478391ed42fc2d8df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/UI/Objects/VN Choice.prefab using Guid(a8f2200dd331d23478391ed42fc2d8df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b36657d0d7877031b86fb569fb050a62') in 0.0263143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Other/Main Camera.prefab
+  artifactKey: Guid(2aa40a70a2bb2da4f807db66bd4c14a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Prefabs/Other/Main Camera.prefab using Guid(2aa40a70a2bb2da4f807db66bd4c14a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '412c538464eb7f1885a4dad2b2c9fa20') in 0.0128422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Scripts/UI/ToggleButton.cs
+  artifactKey: Guid(14640611def610346865089d5fbcd22a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Scripts/UI/ToggleButton.cs using Guid(14640611def610346865089d5fbcd22a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e916c6ed767f50dc1edca3d175209532') in 0.0041517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Scripts/UI/TheEndMenu.cs
+  artifactKey: Guid(be13261399b47c84397f67b6ebb184bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Scripts/UI/TheEndMenu.cs using Guid(be13261399b47c84397f67b6ebb184bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bb3c5d449489dc7151c232fbd905f1c') in 0.003808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_frown.png
+  artifactKey: Guid(47ce1430591a2c14fa40da99b18526a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_frown.png using Guid(47ce1430591a2c14fa40da99b18526a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a72f3f8407e02c257d0f4864c07b8b0c') in 0.0120603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Fields/Time.asset
+  artifactKey: Guid(f26378954a85f0245a812ec7264d0b5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Fields/Time.asset using Guid(f26378954a85f0245a812ec7264d0b5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ea79b3e18e3d410d229a36448497cf6') in 0.0035778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_huh.png
+  artifactKey: Guid(b5a855a67b9b47c49945381b391056c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schwin_huh.png using Guid(b5a855a67b9b47c49945381b391056c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65dbd03a9227a1c3a547ed8fa31d86e9') in 0.0123916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90072dc3295619f1180605301621a014') in 0.0057685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Dialogue System/Scripts/Generated/Character.Fields.generated.cs
+  artifactKey: Guid(1886eff81fea8bb45a83d3cd70d6a196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Scripts/Generated/Character.Fields.generated.cs using Guid(1886eff81fea8bb45a83d3cd70d6a196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e55ef4ffe9c936f6e7a6c415c7b8b94') in 0.0030072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_normalblush.png
+  artifactKey: Guid(918cfde127146f449a972ebf06c33995) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_normalblush.png using Guid(918cfde127146f449a972ebf06c33995) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f31f259505a7ae5444b55ff9a7540858') in 0.0138521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Singletons/VNEMainCamera.cs
+  artifactKey: Guid(b3802cf1ad47e6a44a4c86b87f182c32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Singletons/VNEMainCamera.cs using Guid(b3802cf1ad47e6a44a4c86b87f182c32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '879363276cac032b6cba28b7bcc78a11') in 0.0038375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_upset.png
+  artifactKey: Guid(ad590adb78f89874f88025a37d91e01b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_upset.png using Guid(ad590adb78f89874f88025a37d91e01b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd617da1ce86e93190833cec0d38d270d') in 0.0125623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_poutangry.png
+  artifactKey: Guid(14c8d16052ac6884b8f8195198b37a5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/ume_schsum_poutangry.png using Guid(14c8d16052ac6884b8f8195198b37a5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e215cc3667fc568090f6e6f444d0d35') in 0.0106429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Dialogues/VN Dialogue 3B.asset
+  artifactKey: Guid(a18868bec3bd4b74c8297c2f9ee8697c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Dialogues/VN Dialogue 3B.asset using Guid(a18868bec3bd4b74c8297c2f9ee8697c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8deebb7408f4c99c4b0cd55fbc1ab6b5') in 0.0031037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Dialogue System/Scripts/Generated/Enums/Emotion.cs
+  artifactKey: Guid(b533c537527ad3e4e90df9453b6a223e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Scripts/Generated/Enums/Emotion.cs using Guid(b533c537527ad3e4e90df9453b6a223e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '866996cc29bff5b98ef074dd2fa439df') in 0.0028971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_happy.png
+  artifactKey: Guid(a84ae6c5d862fb043928945975d44990) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/tomomi_schsum_happy.png using Guid(a84ae6c5d862fb043928945975d44990) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7b2fcae15f5b8bd4a25e702cea6944d') in 0.0107402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_angry.png
+  artifactKey: Guid(4d42ed049c6f3304e9e2b0d37ffa7b70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schwin_angry.png using Guid(4d42ed049c6f3304e9e2b0d37ffa7b70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9bef19d4c9fbf2bd15ae991238fa2de') in 0.0131481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Third-Party Notices.txt
+  artifactKey: Guid(b020b60e9ca954d499a8dd125739b3cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Third-Party Notices.txt using Guid(b020b60e9ca954d499a8dd125739b3cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dbe0ef7e498fcbfa7eefda8369d1572') in 0.00791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10893b66dbadab02369f7bd2cde2a604') in 0.0077453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_upset.png
+  artifactKey: Guid(a8aafdb90f17f0942846246b429b7523) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kanako_schsum_upset.png using Guid(a8aafdb90f17f0942846246b429b7523) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27b9454a5e7e0b1f0101259f7e88de22') in 0.0187045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efe8f6ba5e2d20425a070c06ea566109') in 0.0786475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_blush.png
+  artifactKey: Guid(51d7dc212277832408096c6b40fda8a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schwin_blush.png using Guid(51d7dc212277832408096c6b40fda8a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd6d4d9531acb4f7c7a108223ae08fbf') in 0.0167587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/street a day.png
+  artifactKey: Guid(0e2166475d7a5e74d831941108b7c787) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/street a day.png using Guid(0e2166475d7a5e74d831941108b7c787) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3bb648c50c0f06e709444c92d0de2f') in 0.0150797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Singletons/VNESaveManager.cs
+  artifactKey: Guid(e0beee0bbfd79d3439e1381a1330162a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Singletons/VNESaveManager.cs using Guid(e0beee0bbfd79d3439e1381a1330162a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddfeed6ce2c7200bdce9a9a47cebefb5') in 0.004563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_purp.png
+  artifactKey: Guid(93d378e299cdc19419d6de6b4ea1796b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schwin_purp.png using Guid(93d378e299cdc19419d6de6b4ea1796b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9630030fb2696910e8580173c84c116') in 0.018763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Animations/Transitions/Fade_Out.anim
+  artifactKey: Guid(c111309867d6587498c2041dfbe6dd78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Animations/Transitions/Fade_Out.anim using Guid(c111309867d6587498c2041dfbe6dd78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1c19eaf822caffe941382fe89f45292') in 0.0162453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Serializable/HistoryItem.cs
+  artifactKey: Guid(6047e8967687dcf43aef5f39cd968c5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Serializable/HistoryItem.cs using Guid(6047e8967687dcf43aef5f39cd968c5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d00900dafb4bf8b172c6aaf78a43bc6') in 0.0048098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/cafe a day.png
+  artifactKey: Guid(2275382947a73a340815f41e6d7fb390) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Backgrounds/cafe a day.png using Guid(2275382947a73a340815f41e6d7fb390) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35261fc32a9b55620121de8b254b50b6') in 0.0164628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_angry.png
+  artifactKey: Guid(2bf8d08e238fe654c8b884f0dd7f23af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/kohaku_schsum_angry.png using Guid(2bf8d08e238fe654c8b884f0dd7f23af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb12b42b227b10a36acc92acececa199') in 0.0132722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a44118f96e0342e463a0d700901d540d') in 0.0045487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Scripts/Utils/EventSystemManager.cs
+  artifactKey: Guid(f007ee6169f34ef4fa08087ff50e67cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Scripts/Utils/EventSystemManager.cs using Guid(f007ee6169f34ef4fa08087ff50e67cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2a5bd718ef0aded3dd1258a11763436') in 0.0036241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_talk.png
+  artifactKey: Guid(d01446a89a3e4c646b23c9a33a3757b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_talk.png using Guid(d01446a89a3e4c646b23c9a33a3757b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aa2ad732da6cab856ce81e26a87468f') in 0.012214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a3cfde88328f715ff3a85b27179fcc7') in 0.0041566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IndieDevs/Dialogue System/Scripts/Generated/Enums/Pose.cs
+  artifactKey: Guid(05e18037a2222ae449fadf09ddc44b05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Dialogue System/Scripts/Generated/Enums/Pose.cs using Guid(05e18037a2222ae449fadf09ddc44b05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b111e01419107f58754cb2195bfb730') in 0.0041074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a0a437b86bae88c352e73d3bc9eafd9') in 0.0140231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_angry.png
+  artifactKey: Guid(2e1eebab5c676ba409b23a8ed7a55a10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IndieDevs/Visual Novel Engine/Example/Images/Characters/chinatsu_schsum_angry.png using Guid(2e1eebab5c676ba409b23a8ed7a55a10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c69f6dd5c774c5d921b5c3b7524cc64') in 0.0098491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aebbf55cc5afde0fbc09c8a7a2d00019') in 0.0044505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
