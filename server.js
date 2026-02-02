@@ -11,16 +11,21 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 10000;
 
+
 // middleware
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 // ✅ TEST ROUTE (สำคัญมาก)
 app.get('/', (req, res) => {
-  res.send('Backend is running 🚀');
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+app.get('/homepage', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'homepage.html'));
 });
 
-console.log("DEBUG MONGO_URI =", process.env.MONGO_URI);
 
 // MongoDB
 mongoose.connect(process.env.MONGO_URI)
@@ -39,3 +44,4 @@ app.post('/login', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+console.log('PUBLIC DIR =', path.join(__dirname, 'public'));
