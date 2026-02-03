@@ -212,7 +212,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         min-height: 250px; /* Smaller height */
-        margin-top: 10px; /* Less margin */
+        margin-top: 0px; /* Less margin */
     }
 
     .homepage-container h1 { /* Adjusts welcome for mobile */
@@ -226,11 +226,16 @@ button:hover { /* Hover state for buttons */
         max-width: 600px; /* Larger width */
         padding: 60px; /* More padding */
     }
-
+    .logo img { /* Enhances logo for desktop */
+        width: 80px; /* Bigger width */
+        height: auto; /* Maintains aspect ratio */
+    }
     .homepage-container { /* Enhances main container for desktop */
+        margin-top:10px;
         max-width: 1400px; /* Larger width */
-        width: 95vw; /* 95% viewport */
-        padding: 60px 40px 40px 40px; /* Padding */
+        width: 95vw; /* 90% viewport */
+        height: 800px; /* Auto height */
+        padding: 100px 40px 40px 40px; /* Padding */
     }
 
     .header-bar { /* Enhances header for desktop */
