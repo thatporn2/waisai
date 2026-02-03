@@ -195,13 +195,14 @@ button:hover { /* Hover state for buttons */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
-        margin-top: -100px; /* Smaller top margin */
+        margin-top: 10px; /* Smaller top margin */
+        height: 100px; /* Auto height */
     }
 
     .homepage-container h1 { /* Adjusts welcome text for mobile */
         font-size: 1.3em; /* Smaller font for better fit */
         letter-spacing: 1px; /* Reduced spacing */
-        margin-left: 5%;
+        margin-left: 0%;
     }
 }
 
@@ -220,8 +221,8 @@ button:hover { /* Hover state for buttons */
         margin-top: 10px; /* Less margin */
     }
 
-    .homepage-container h1 { /* Adjusts welcome for mobile */
-        font-size: 1.em; /* Smaller font */
+    .homepage-container h2 { /* Adjusts welcome for mobile */
+        font-size: 1.2em; /* Smaller font */
     }
 
 
