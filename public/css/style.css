@@ -97,7 +97,7 @@ button:hover { /* Hover state for buttons */
     box-shadow: 0 2px 8px rgba(31, 96, 170, 0.08); /* Shadow */
     padding: 24px 30px 16px 30px; /* Padding */
     box-sizing: border-box; /* Includes padding */
-    min-height: 80px; /* Minimum height */
+    min-height: 60px; /* Minimum height reduced */
 }
 
 .header-bar .left-section { /* Left part of header-bar */
@@ -132,7 +132,7 @@ button:hover { /* Hover state for buttons */
     min-height: 400px; /* Minimum height */
     text-align: center; /* Centers text */
     box-sizing: border-box; /* Includes padding */
-    margin-top: 40px; /* Top margin */
+    margin-top: 40px; /* Top margin increased for more space */
 }
 
 .homepage-container h1 { /* Welcome message */
@@ -180,12 +180,27 @@ button:hover { /* Hover state for buttons */
 
     .header-bar { /* Adjusts header for mobile */
         padding: 16px 20px 12px 20px; /* Less padding */
-        min-height: 60px; /* Smaller height */
+        min-height: 40px; /* Smaller height to move content up */
     }
 
     .header h1 { /* Adjusts header title for mobile */
         font-size: 1.2em; /* Smaller font */
     }
+
+    .header-bar button { /* Adjusts logout button for mobile */
+        padding: 8px 12px; /* Smaller padding */
+        font-size: 14px; /* Smaller font */
+    }
+
+    .homepage-container { /* Adjusts main container for mobile */
+        margin-top: 20px; /* Smaller top margin */
+    }
+
+    .homepage-container h1 { /* Adjusts welcome text for mobile */
+        font-size: 1.5em; /* Smaller font for better fit */
+        letter-spacing: 1px; /* Reduced spacing */
+    }
+}
 
     .logo img { /* Adjusts logo for mobile */
         width: 40px; /* Smaller width */
@@ -201,7 +216,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container h1 { /* Adjusts welcome for mobile */
         font-size: 1.8em; /* Smaller font */
     }
-}
+
 
 /* Desktop Enhancements */
 @media (min-width: 769px) { /* For screens 769px and above */
