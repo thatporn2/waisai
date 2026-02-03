@@ -30,7 +30,7 @@ img { /* Applies to all images */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 12px rgba(31, 96, 170, 0.1); /* Subtle shadow */
     width: 100%; /* Full width */
-    max-width: 400px; /* Max width limit */
+    max-width: 450px; /* Max width limit */
     box-sizing: border-box; /* Includes padding in width */
     text-align: center; /* Centers text */
 }
@@ -106,16 +106,20 @@ button:hover { /* Hover state for buttons */
     gap: 20px; /* Gap between items */
 }
 
+.header-bar button { /* Logout button in header */
+    margin-top: -10px; /* Moves button slightly up */
+}
+
 .header h1 { /* Header title */
     margin: 0; /* No margin */
     font-size: 1.8em; /* Font size */
-    color: #ff7eb9; /* Pink color */
+    color: #1F60AA; /* Pink color */
     font-family: 'Trirong', sans-serif; /* Font */
 }
 
 .logo img { /* Logo image */
-    border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 1px 4px rgba(126, 207, 255, 0.3); /* Light shadow */
+    /* Removed border-radius and box-shadow for plain look */
+    margin-top: 10px; /* Moves logo slightly down */
 }
 
 .homepage-container { /* Main content container */
@@ -137,6 +141,7 @@ button:hover { /* Hover state for buttons */
     letter-spacing: 2px; /* Spacing between letters */
     font-size: 2.2em; /* Font size */
     margin-bottom: 12px; /* Bottom margin */
+    margin-top: -20px; /* Moves message up */
 }
 
 /* Mobile Responsiveness */
@@ -146,8 +151,8 @@ button:hover { /* Hover state for buttons */
     }
 
     .login-container, .signup-container { /* Adjusts forms for mobile */
-        padding: 20px; /* Less padding */
-        max-width: 95vw; /* 95% of viewport */
+        padding: 40px; /* More padding */
+        max-width: 500px; /* Larger width */
         border-radius: 12px; /* Smaller radius */
     }
 
@@ -201,8 +206,8 @@ button:hover { /* Hover state for buttons */
 /* Desktop Enhancements */
 @media (min-width: 769px) { /* For screens 769px and above */
     .login-container, .signup-container { /* Enhances forms for desktop */
-        max-width: 500px; /* Larger width */
-        padding: 50px; /* More padding */
+        max-width: 600px; /* Larger width */
+        padding: 60px; /* More padding */
     }
 
     .homepage-container { /* Enhances main container for desktop */

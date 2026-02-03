@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en,th"> <!-- Root element with language attributes -->
+<head> <!-- Head section for metadata -->
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- Responsive viewport, prevents zoom -->
+    <title>Sign Up - วัยใสใส่ใจรัก</title> <!-- Page title -->
+    <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- Loads Trirong font -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Links to external CSS -->
+</head> <!-- End head -->
+    
+<body> <!-- Body section -->
+    <h1>ยินดีต้อนรับสู่ วัยใสใส่ใจรัก</h1> <!-- Welcome heading -->
+    <div class="logo"> <!-- Logo container -->
+        <img src="/images/logo.png" alt="Logo" width="300"> <!-- Logo image -->
+    </div> <!-- End logo -->
+
+    <div class="signup-container"> <!-- Signup form container -->
+        <h1>Sign Up</h1> <!-- Signup title -->
+        <h3>กรุณาสมัครสมาชิก</h3> <!-- Signup subtitle -->
+        <form id="signupForm"> <!-- Signup form -->
+            <input type="email" placeholder="Email" required> <!-- Email input -->
+            <input type="password" placeholder="Password" required> <!-- Password input -->
+            <input type="password" placeholder="Confirm Password" required> <!-- Confirm password input -->
+            <button type="submit"><b>Sign Up</b></button> <!-- Submit button -->
+        </form> <!-- End signup form -->
+        <div class="switch-link"><a href="/">Already have an account? Login</a></div> <!-- Link to login page -->
+    </div> <!-- End signup container -->
+
+<script> <!-- JavaScript section -->
+document.getElementById('signupForm').addEventListener('submit', async function(e) { // Signup form submit handler
+    e.preventDefault(); // Prevents default
+    const email = this.querySelector('input[type="email"]').value; // Gets email
+    const password = this.querySelector('input[type="password"]').value; // Gets password
+    const confirmPassword = this.querySelectorAll('input[type="password"]')[1].value; // Gets confirm password
+    if (password !== confirmPassword) { // Checks if passwords match
+        alert('Passwords do not match.'); // Alert if not
+        return; // Stops execution
+    }
+    try {
+  const response = await fetch('/register', { // Fetches register endpoint
+    method: 'POST', // POST method
+    headers: { 'Content-Type': 'application/json' }, // JSON headers
+    body: JSON.stringify({ email, password }) // Sends data
+  });
+
+  const data = await response.json(); // Parses response
+
+  if (response.ok) { // If successful
+    alert(data.message); // Shows success message
+    window.location.href = '/'; // Redirects to login
+  } else { // If error
+    alert(data.message); // Shows error message
+  }
+} catch (err) { // Catches errors
+  alert('เชื่อมต่อเซิร์ฟเวอร์ไม่ได้'); // Thai error message
+}
+
+});
+</script> <!-- End script -->
+
+</body> <!-- End body -->
+</html> <!-- End HTML -->

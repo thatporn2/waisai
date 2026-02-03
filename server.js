@@ -25,6 +25,9 @@ app.get('/', (req, res) => {
 app.get('/homepage', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'homepage.html'));
 });
+app.get('/signup', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'signup.html'));
+});
 
 
 // MongoDB
