@@ -206,8 +206,9 @@ button:hover { /* Hover state for buttons */
 }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 42px; /* Bigger width */
+        width: 52px; /* Bigger width */
         height: auto; /* Sets height proportionally */
+        margin-left:20px ; /* Adds left margin */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
