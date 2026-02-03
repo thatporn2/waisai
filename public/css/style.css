@@ -209,7 +209,7 @@ button:hover { /* Hover state for buttons */
         width: 58px; /* Bigger width */
         height: auto; /* Sets height proportionally */
         margin-left:25px ; /* Adds left margin */
-        margin-top: 10px; /* Sets top margin to auto */
+        margin-top: 20px; /* Sets top margin to auto */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
