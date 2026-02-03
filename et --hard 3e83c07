@@ -1,0 +1,23 @@
+[33mfb26aed[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge branch 'main' of https://github.com/thatporn2/waisai
+[33m1025868[m add responsive css and fix layout
+[33m3e83c07[m Add files via upload
+[33m3bce0dc[m move images into public and fix paths
+[33m24bd4ed[m move images into public
+[33m10bb586[m Add files via upload
+[33m9d7bac4[m add images
+[33mf27c22a[m add public images
+[33m29e8e01[m add logo image
+[33m78cbce2[m debug public path
+[33me221504[m add frontend public files
+[33m83e4516[m debug mongo uri
+[33mfff9570[m remove .env from git tracking
+[33mb032087[m fix server port
+[33m090073c[m fix backend root
+[33m3ea4afb[m add backend dependencies
+[33m19d97ec[m fix server and env for render
+[33mf749152[m fix mongodb connection and env config
+[33m9f34c3f[m resolve merge conflicts
+[33m43f3bbb[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m update gitignore
+[33m1ac60bd[m cleanup ignored files
+[33m7744868[m Add files via upload
+[33m0db2c14[m Initial commit

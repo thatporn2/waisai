@@ -1,193 +1,106 @@
-<!DOCTYPE html>
-<html lang="en,th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>my website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Trirong', sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            flex-direction: column;
-        }
-        .logo {
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: center;
-        }
-        .login-container {
-            background-color: white;
-            padding: 40px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(31, 96, 170, 0.1);
-            width: 300px;
-            max-width: 90vw;
-            box-sizing: border-box;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            box-sizing: border-box;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        @media (max-width: 600px) {
-            body {
-                padding: 5px;
-            }
-            .login-container {
-                padding: 20px;
-                width: 100%;
-                max-width: 98vw;
-            }
-            .logo img {
-                width: 180px;
-            }
-            h1 {
-                font-size: 1.5em;
-            }
-            h3 {
-                font-size: 1em !important;
-            }
-        }
-        button {
-            width: 100%;
-            padding: 10px;
-            margin-top: 20px;
-            background-color: #1F60AA;
-            color: white;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #555;
-        }
-        .signup-container {
-            display: none; /* Hidden by default */
-        }
-        .switch-link {
-            text-align: center;
-            margin-top: 10px;
-            color: #1F60AA;
-            cursor: pointer;
-            text-decoration: underline;
-        }
-    </style>
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en,th"> <!-- Root element with language attributes -->
+<head> <!-- Head section for metadata -->
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- Responsive viewport, prevents zoom -->
+    <title>my website</title> <!-- Page title -->
+    <link href="https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- Loads Trirong font -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Links to external CSS -->
+</head> <!-- End head -->
     
-    <h1>ยินดีต้อนรับสู่ วัยใสใส่ใจรัก</h1> <!-- Highlighted welcome message -->
-    <div class="logo">
-        <img src="/images/logo.png" alt="Logo" width="300"> <!-- Highlighted logo -->
-    </div>
-    </style>
-</head>
-<body>
+<body> <!-- Body section -->
+    <h1>ยินดีต้อนรับสู่ วัยใสใส่ใจรัก</h1> <!-- Welcome heading -->
+    <div class="logo"> <!-- Logo container -->
+        <img src="/images/logo.png" alt="Logo" width="300"> <!-- Logo image -->
+    </div> <!-- End logo -->
 
-<div class="login-container">
-    <h1 style="font-family: 'Trirong', sans-serif; color: #1F60AA; ">Login</h1>
-    <h3 style="font-family: 'TH Sarabun PSK', sans-serif; color: #000000; font-size: 16px;">กรุณาเข้าสู่ระบบเพื่อใช้งาน</h3>
-    <form id="loginForm">
-        <input type="email" placeholder="Email" required>
-        <input type="password" placeholder="Password" required>
-        <button type="submit"><b>Login</b></button>
-    </form>
-    <div class="switch-link" onclick="showSignup()">Don't have an account? Sign up</div>
-</div>
+    <div class="login-container"> <!-- Login form container -->
+        <h1>Login</h1> <!-- Login title -->
+        <h3>กรุณาเข้าสู่ระบบเพื่อใช้งาน</h3> <!-- Login subtitle -->
+        <form id="loginForm"> <!-- Login form -->
+            <input type="email" placeholder="Email" required> <!-- Email input -->
+            <input type="password" placeholder="Password" required> <!-- Password input -->
+            <button type="submit"><b>Login</b></button> <!-- Submit button -->
+        </form> <!-- End login form -->
+        <div class="switch-link" onclick="showSignup()">Don't have an account? Sign up</div> <!-- Switch to signup link -->
+    </div> <!-- End login container -->
 
-<div class="signup-container">
-    <div class="login-container">
-        <h1 style="font-family: 'Trirong', sans-serif; color: #1F60AA; ">Sign Up </h1>
-        <h3 style="font-family: 'Trirong', sans-serif; color: #000000; font-size: 16px;">กรุณาสมัครสมาชิก</h3>
-        <form id="signupForm">
-            <input type="email" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <input type="password" placeholder="Confirm Password" required>
-            <button type="submit"><b>Sign Up</b></button>
-        </form>
-        <div class="switch-link" onclick="showLogin()">Already have an account? Login</div>
-    </div>
-</div>
+    <div class="signup-container"> <!-- Signup form container -->
+        <h1>Sign Up</h1> <!-- Signup title -->
+        <h3>กรุณาสมัครสมาชิก</h3> <!-- Signup subtitle -->
+        <form id="signupForm"> <!-- Signup form -->
+            <input type="email" placeholder="Email" required> <!-- Email input -->
+            <input type="password" placeholder="Password" required> <!-- Password input -->
+            <input type="password" placeholder="Confirm Password" required> <!-- Confirm password input -->
+            <button type="submit"><b>Sign Up</b></button> <!-- Submit button -->
+        </form> <!-- End signup form -->
+        <div class="switch-link" onclick="showLogin()">Already have an account? Login</div> <!-- Switch to login link -->
+    </div> <!-- End signup container -->
 
-<script>
-function showSignup() {
-    document.querySelector('.login-container').style.display = 'none';
-    document.querySelector('.signup-container').style.display = 'block';
+<script> <!-- JavaScript section -->
+function showSignup() { <!-- Function to show signup form -->
+    document.querySelector('.login-container').style.display = 'none'; <!-- Hides login -->
+    document.querySelector('.signup-container').style.display = 'block'; <!-- Shows signup -->
 }
 
-function showLogin() {
-    document.querySelector('.signup-container').style.display = 'none';
-    document.querySelector('.login-container').style.display = 'block';
+function showLogin() { <!-- Function to show login form -->
+    document.querySelector('.signup-container').style.display = 'none'; <!-- Hides signup -->
+    document.querySelector('.login-container').style.display = 'block'; <!-- Shows login -->
 }
 
-document.getElementById('loginForm').addEventListener('submit', async function(e) {
-    e.preventDefault();
-    const email = this.querySelector('input[type="email"]').value;
-    const password = this.querySelector('input[type="password"]').value;
+document.getElementById('loginForm').addEventListener('submit', async function(e) { <!-- Login form submit handler -->
+    e.preventDefault(); <!-- Prevents default form submission -->
+    const email = this.querySelector('input[type="email"]').value; <!-- Gets email value -->
+    const password = this.querySelector('input[type="password"]').value; <!-- Gets password value -->
     try {
-        const response = await fetch('/login', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ email, password })
+        const response = await fetch('/login', { <!-- Fetches login endpoint -->
+  method: 'POST', <!-- POST method -->
+  headers: { 'Content-Type': 'application/json' }, <!-- JSON headers -->
+  body: JSON.stringify({ email, password }) <!-- Sends data as JSON -->
 });
 
-const data = await response.json();
+const data = await response.json(); <!-- Parses response -->
 
-if (response.ok) {
-  window.location.href = '/homepage';
+if (response.ok) { <!-- If successful -->
+  window.location.href = '/homepage'; <!-- Redirects to homepage -->
 }
 
-    } catch (error) {
-        alert('Error connecting to server');
+    } catch (error) { <!-- Catches errors -->
+        alert('Error connecting to server'); <!-- Shows error alert -->
     }
 });
 
-document.getElementById('signupForm').addEventListener('submit', async function(e) {
-    e.preventDefault();
-    const email = this.querySelector('input[type="email"]').value;
-    const password = this.querySelector('input[type="password"]').value;
-    const confirmPassword = this.querySelectorAll('input[type="password"]')[1].value;
-    if (password !== confirmPassword) {
-        alert('Passwords do not match.');
-        return;
+document.getElementById('signupForm').addEventListener('submit', async function(e) { <!-- Signup form submit handler -->
+    e.preventDefault(); <!-- Prevents default -->
+    const email = this.querySelector('input[type="email"]').value; <!-- Gets email -->
+    const password = this.querySelector('input[type="password"]').value; <!-- Gets password -->
+    const confirmPassword = this.querySelectorAll('input[type="password"]')[1].value; <!-- Gets confirm password -->
+    if (password !== confirmPassword) { <!-- Checks if passwords match -->
+        alert('Passwords do not match.'); <!-- Alert if not -->
+        return; <!-- Stops execution -->
     }
     try {
-  const response = await fetch('/register', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ email, password })
+  const response = await fetch('/register', { <!-- Fetches register endpoint -->
+    method: 'POST', <!-- POST method -->
+    headers: { 'Content-Type': 'application/json' }, <!-- JSON headers -->
+    body: JSON.stringify({ email, password }) <!-- Sends data -->
   });
 
-  const data = await response.json();
+  const data = await response.json(); <!-- Parses response -->
 
-  if (response.ok) {
-    alert(data.message);
-    showLogin();
-  } else {
-    alert(data.message);
+  if (response.ok) { <!-- If successful -->
+    alert(data.message); <!-- Shows success message -->
+    showLogin(); <!-- Switches to login -->
+  } else { <!-- If error -->
+    alert(data.message); <!-- Shows error message -->
   }
-} catch (err) {
-  alert('เชื่อมต่อเซิร์ฟเวอร์ไม่ได้');
+} catch (err) { <!-- Catches errors -->
+  alert('เชื่อมต่อเซิร์ฟเวอร์ไม่ได้'); <!-- Thai error message -->
 }
 
 });
-</script>
+</script> <!-- End script -->
 
 
-</body>
-</html>
+</body> <!-- End body -->
+</html> <!-- End HTML -->

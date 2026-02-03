@@ -28,9 +28,9 @@ app.get('/homepage', (req, res) => {
 
 
 // MongoDB
-mongoose.connect(process.env.MONGO_URI)
-  .then(() => console.log('MongoDB connected'))
-  .catch(err => console.error(err));
+// mongoose.connect(process.env.MONGO_URI)
+//   .then(() => console.log('MongoDB connected'))
+//   .catch(err => console.error(err));
 
 // routes
 app.post('/register', async (req, res) => {

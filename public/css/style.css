@@ -1,0 +1,228 @@
+/* General Styles */
+body { /* Applies to the entire page body */
+    font-family: 'Trirong', sans-serif; /* Sets the font to Trirong with fallback */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds 20px padding inside */
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex; /* Makes it a flex container for centering */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Full viewport height minimum */
+    flex-direction: column; /* Stacks items vertically */
+    box-sizing: border-box; /* Includes padding in sizing */
+}
+
+img { /* Applies to all images */
+    max-width: 100%; /* Prevents overflow */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* Index Page Styles */
+.logo { /* Styles for the logo section */
+    margin-bottom: 20px; /* Space below logo */
+    display: flex; /* Flex for centering */
+    justify-content: center; /* Centers logo */
+}
+
+.login-container, .signup-container { /* Styles for login/signup forms */
+    background-color: white; /* White background */
+    padding: 40px; /* Padding inside */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(31, 96, 170, 0.1); /* Subtle shadow */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width limit */
+    box-sizing: border-box; /* Includes padding in width */
+    text-align: center; /* Centers text */
+}
+
+h1 { /* Styles for main headings */
+    color: #1F60AA; /* Blue color */
+    font-family: 'Trirong', sans-serif; /* Font family */
+    margin-bottom: 10px; /* Bottom margin */
+}
+
+h3 { /* Styles for subheadings */
+    color: #333; /* Dark gray */
+    font-size: 16px; /* Font size */
+    margin-bottom: 20px; /* Bottom margin */
+}
+
+input { /* Styles for input fields */
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding */
+    margin: 10px 0; /* Margins */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 6px; /* Rounded corners */
+    box-sizing: border-box; /* Includes padding */
+    font-size: 16px; /* Prevents mobile zoom */
+}
+
+button { /* Styles for buttons */
+    width: 100%; /* Full width */
+    padding: 12px; /* Padding */
+    margin-top: 20px; /* Top margin */
+    background-color: #1F60AA; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover { /* Hover state for buttons */
+    background-color: #0056b3; /* Darker blue */
+}
+
+.switch-link { /* Styles for switch links */
+    text-align: center; /* Centers text */
+    margin-top: 15px; /* Top margin */
+    color: #1F60AA; /* Blue color */
+    cursor: pointer; /* Pointer */
+    text-decoration: underline; /* Underlined */
+    font-size: 14px; /* Font size */
+}
+
+/* Homepage Styles */
+.header-bar { /* Top bar on homepage */
+    width: 100%; /* Full width */
+    max-width: 100vw; /* Max viewport width */
+    margin: 0; /* No margin */
+    display: flex; /* Flex layout */
+    justify-content: space-between; /* Spaces items */
+    align-items: center; /* Centers vertically */
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 18px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(31, 96, 170, 0.08); /* Shadow */
+    padding: 24px 30px 16px 30px; /* Padding */
+    box-sizing: border-box; /* Includes padding */
+    min-height: 80px; /* Minimum height */
+}
+
+.header-bar .left-section { /* Left part of header-bar */
+    display: flex; /* Flex for logo and button */
+    align-items: center; /* Centers items */
+    gap: 20px; /* Gap between items */
+}
+
+.header h1 { /* Header title */
+    margin: 0; /* No margin */
+    font-size: 1.8em; /* Font size */
+    color: #ff7eb9; /* Pink color */
+    font-family: 'Trirong', sans-serif; /* Font */
+}
+
+.logo img { /* Logo image */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 1px 4px rgba(126, 207, 255, 0.3); /* Light shadow */
+}
+
+.homepage-container { /* Main content container */
+    background: linear-gradient(135deg, #f8faff 60%, #e3e7ff 100%); /* Gradient background */
+    padding: 60px 40px 40px 40px; /* Padding */
+    border-radius: 24px; /* Rounded corners */
+    box-shadow: 0 8px 32px rgba(31, 96, 170, 0.12), 0 1.5px 6px rgba(255, 182, 193, 0.08); /* Shadows */
+    width: 100vw; /* Full viewport width */
+    max-width: 100vw; /* Max width */
+    min-height: 400px; /* Minimum height */
+    text-align: center; /* Centers text */
+    box-sizing: border-box; /* Includes padding */
+    margin-top: 40px; /* Top margin */
+}
+
+.homepage-container h1 { /* Welcome message */
+    color: #1F60AA; /* Blue color */
+    font-family: 'Trirong', sans-serif; /* Font */
+    letter-spacing: 2px; /* Spacing between letters */
+    font-size: 2.2em; /* Font size */
+    margin-bottom: 12px; /* Bottom margin */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) { /* For screens 768px and below */
+    body { /* Adjusts body for mobile */
+        padding: 10px; /* Reduces padding */
+    }
+
+    .login-container, .signup-container { /* Adjusts forms for mobile */
+        padding: 20px; /* Less padding */
+        max-width: 95vw; /* 95% of viewport */
+        border-radius: 12px; /* Smaller radius */
+    }
+
+    .logo img { /* Adjusts logo for mobile */
+        width: 180px; /* Smaller width */
+    }
+
+    h1 { /* Adjusts headings for mobile */
+        font-size: 1.5em; /* Smaller font */
+    }
+
+    h3 { /* Adjusts subheadings for mobile */
+        font-size: 1em; /* Smaller font */
+    }
+
+    input { /* Adjusts inputs for mobile */
+        padding: 10px; /* Less padding */
+        font-size: 16px; /* Prevents zoom */
+    }
+
+    button { /* Adjusts buttons for mobile */
+        padding: 10px; /* Less padding */
+        font-size: 16px; /* Font size */
+    }
+
+    .header-bar { /* Adjusts header for mobile */
+        padding: 16px 20px 12px 20px; /* Less padding */
+        min-height: 60px; /* Smaller height */
+    }
+
+    .header h1 { /* Adjusts header title for mobile */
+        font-size: 1.2em; /* Smaller font */
+    }
+
+    .logo img { /* Adjusts logo for mobile */
+        width: 40px; /* Smaller width */
+        height: 32px; /* Sets height */
+    }
+
+    .homepage-container { /* Adjusts main container for mobile */
+        padding: 30px 20px 20px 20px; /* Less padding */
+        min-height: 250px; /* Smaller height */
+        margin-top: 20px; /* Less margin */
+    }
+
+    .homepage-container h1 { /* Adjusts welcome for mobile */
+        font-size: 1.8em; /* Smaller font */
+    }
+}
+
+/* Desktop Enhancements */
+@media (min-width: 769px) { /* For screens 769px and above */
+    .login-container, .signup-container { /* Enhances forms for desktop */
+        max-width: 500px; /* Larger width */
+        padding: 50px; /* More padding */
+    }
+
+    .homepage-container { /* Enhances main container for desktop */
+        max-width: 1400px; /* Larger width */
+        width: 95vw; /* 95% viewport */
+        padding: 60px 40px 40px 40px; /* Padding */
+    }
+
+    .header-bar { /* Enhances header for desktop */
+        max-width: 1400px; /* Larger width */
+        width: 95vw; /* 95% viewport */
+        padding: 26px 35px 18px 35px; /* Padding */
+        min-height: 90px; /* Larger height */
+    }
+
+    .header h1 { /* Enhances header title for desktop */
+        font-size: 2em; /* Larger font */
+    }
+
+    .homepage-container h1 { /* Enhances welcome for desktop */
+        font-size: 2.5em; /* Larger font */
+    }
+}
