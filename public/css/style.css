@@ -60,7 +60,7 @@ input { /* Styles for input fields */
 button { /* Styles for buttons */
     width: 100%; /* Full width */
     padding: 12px; /* Padding */
-    margin-top: 20px; /* Top margin */
+    margin-top: 20px; /* Top margin reduced */
     background-color: #1F60AA; /* Blue background */
     color: white; /* White text */
     border: none; /* No border */
@@ -88,7 +88,7 @@ button:hover { /* Hover state for buttons */
 .header-bar { /* Top bar on homepage */
     width: 100%; /* Full width */
     max-width: 100vw; /* Max viewport width */
-    margin: 0; /* No margin */
+    margin:10px; /* Negative margin to offset body padding */
     display: flex; /* Flex layout */
     justify-content: space-between; /* Spaces items */
     align-items: center; /* Centers vertically */
@@ -129,7 +129,7 @@ button:hover { /* Hover state for buttons */
     box-shadow: 0 8px 32px rgba(31, 96, 170, 0.12), 0 1.5px 6px rgba(255, 182, 193, 0.08); /* Shadows */
     width: 100vw; /* Full viewport width */
     max-width: 100vw; /* Max width */
-    min-height: 400px; /* Minimum height */
+    min-height: 40px; /* Minimum height reduced */
     text-align: center; /* Centers text */
     box-sizing: border-box; /* Includes padding */
     margin-top: 40px; /* Top margin increased for more space */
@@ -157,7 +157,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 180px; /* Smaller width */
+        width: 200px; /* Bigger width */
     }
 
     h1 { /* Adjusts headings for mobile */
@@ -180,7 +180,7 @@ button:hover { /* Hover state for buttons */
 
     .header-bar { /* Adjusts header for mobile */
         padding: 16px 20px 12px 20px; /* Less padding */
-        min-height: 40px; /* Smaller height to move content up */
+        min-height: 30px; /* Smaller height to move content up */
     }
 
     .header h1 { /* Adjusts header title for mobile */
@@ -193,18 +193,18 @@ button:hover { /* Hover state for buttons */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
-        margin-top: 20px; /* Smaller top margin */
+        margin-top: 10px; /* Smaller top margin */
     }
 
     .homepage-container h1 { /* Adjusts welcome text for mobile */
-        font-size: 1.5em; /* Smaller font for better fit */
+        font-size: 1.3em; /* Smaller font for better fit */
         letter-spacing: 1px; /* Reduced spacing */
     }
 }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 40px; /* Smaller width */
-        height: 32px; /* Sets height */
+        width: 80px; /* Bigger width */
+        height: 62px; /* Sets height proportionally */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
