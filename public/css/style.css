@@ -191,7 +191,7 @@ button:hover { /* Hover state for buttons */
     .header-bar button { /* Adjusts logout button for mobile */
         padding: 8px 12px; /* Smaller padding */
         font-size: 14px; /* Smaller font */
-        margin-left: 10px; /* Adds left margin */
+        margin-left: 30px; /* Adds left margin */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
@@ -206,14 +206,14 @@ button:hover { /* Hover state for buttons */
 }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 62px; /* Bigger width */
-        height: 50px; /* Sets height proportionally */
+        width: 42px; /* Bigger width */
+        height: auto; /* Sets height proportionally */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         width: 95vw; /* 95% viewport */
-        height:300px; /* Auto height */
+        height:700px; /* Auto height */
         min-height: 250px; /* Smaller height */
         margin-top: 10px; /* Less margin */
     }
