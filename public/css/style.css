@@ -157,7 +157,8 @@ button:hover { /* Hover state for buttons */
     }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 5000px;/*igger width */
+        width: 9000px;/*igger width */
+        height: auto; /* Maintains aspect ratio */
     }
 
     h1 { /* Adjusts headings for mobile */
@@ -190,7 +191,7 @@ button:hover { /* Hover state for buttons */
     .header-bar button { /* Adjusts logout button for mobile */
         padding: 8px 12px; /* Smaller padding */
         font-size: 14px; /* Smaller font */
-        margin-left: 5%;
+        margin-left: 10px; /* Adds left margin */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
@@ -211,8 +212,10 @@ button:hover { /* Hover state for buttons */
 
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
+        width: 95vw; /* 95% viewport */
+        height:300px; /* Auto height */
         min-height: 250px; /* Smaller height */
-        margin-top: 0px; /* Less margin */
+        margin-top: 10px; /* Less margin */
     }
 
     .homepage-container h1 { /* Adjusts welcome for mobile */
