@@ -196,7 +196,7 @@ button:hover { /* Hover state for buttons */
 
     .homepage-container { /* Adjusts main container for mobile */
         margin-top: 10px; /* Smaller top margin */
-        height: 100px; /* Auto height */
+        height: 50px; /* Auto height */
     }
 
     .homepage-container h1 { /* Adjusts welcome text for mobile */
