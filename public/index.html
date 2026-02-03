@@ -38,64 +38,64 @@
     </div> <!-- End signup container -->
 
 <script> <!-- JavaScript section -->
-function showSignup() { <!-- Function to show signup form -->
-    document.querySelector('.login-container').style.display = 'none'; <!-- Hides login -->
-    document.querySelector('.signup-container').style.display = 'block'; <!-- Shows signup -->
+function showSignup() { // Function to show signup form
+    document.querySelector('.login-container').style.display = 'none'; // Hides login
+    document.querySelector('.signup-container').style.display = 'block'; // Shows signup
 }
 
-function showLogin() { <!-- Function to show login form -->
-    document.querySelector('.signup-container').style.display = 'none'; <!-- Hides signup -->
-    document.querySelector('.login-container').style.display = 'block'; <!-- Shows login -->
+function showLogin() { // Function to show login form
+    document.querySelector('.signup-container').style.display = 'none'; // Hides signup
+    document.querySelector('.login-container').style.display = 'block'; // Shows login
 }
 
-document.getElementById('loginForm').addEventListener('submit', async function(e) { <!-- Login form submit handler -->
-    e.preventDefault(); <!-- Prevents default form submission -->
-    const email = this.querySelector('input[type="email"]').value; <!-- Gets email value -->
-    const password = this.querySelector('input[type="password"]').value; <!-- Gets password value -->
+document.getElementById('loginForm').addEventListener('submit', async function(e) { // Login form submit handler
+    e.preventDefault(); // Prevents default form submission
+    const email = this.querySelector('input[type="email"]').value; // Gets email value
+    const password = this.querySelector('input[type="password"]').value; // Gets password value
     try {
-        const response = await fetch('/login', { <!-- Fetches login endpoint -->
-  method: 'POST', <!-- POST method -->
-  headers: { 'Content-Type': 'application/json' }, <!-- JSON headers -->
-  body: JSON.stringify({ email, password }) <!-- Sends data as JSON -->
+        const response = await fetch('/login', { // Fetches login endpoint
+  method: 'POST', // POST method
+  headers: { 'Content-Type': 'application/json' }, // JSON headers
+  body: JSON.stringify({ email, password }) // Sends data as JSON
 });
 
-const data = await response.json(); <!-- Parses response -->
+const data = await response.json(); // Parses response
 
-if (response.ok) { <!-- If successful -->
-  window.location.href = '/homepage'; <!-- Redirects to homepage -->
+if (response.ok) { // If successful
+  window.location.href = '/homepage'; // Redirects to homepage
 }
 
-    } catch (error) { <!-- Catches errors -->
-        alert('Error connecting to server'); <!-- Shows error alert -->
+    } catch (error) { // Catches errors
+        alert('Error connecting to server'); // Shows error alert
     }
 });
 
-document.getElementById('signupForm').addEventListener('submit', async function(e) { <!-- Signup form submit handler -->
-    e.preventDefault(); <!-- Prevents default -->
-    const email = this.querySelector('input[type="email"]').value; <!-- Gets email -->
-    const password = this.querySelector('input[type="password"]').value; <!-- Gets password -->
-    const confirmPassword = this.querySelectorAll('input[type="password"]')[1].value; <!-- Gets confirm password -->
-    if (password !== confirmPassword) { <!-- Checks if passwords match -->
-        alert('Passwords do not match.'); <!-- Alert if not -->
-        return; <!-- Stops execution -->
+document.getElementById('signupForm').addEventListener('submit', async function(e) { // Signup form submit handler
+    e.preventDefault(); // Prevents default
+    const email = this.querySelector('input[type="email"]').value; // Gets email
+    const password = this.querySelector('input[type="password"]').value; // Gets password
+    const confirmPassword = this.querySelectorAll('input[type="password"]')[1].value; // Gets confirm password
+    if (password !== confirmPassword) { // Checks if passwords match
+        alert('Passwords do not match.'); // Alert if not
+        return; // Stops execution
     }
     try {
-  const response = await fetch('/register', { <!-- Fetches register endpoint -->
-    method: 'POST', <!-- POST method -->
-    headers: { 'Content-Type': 'application/json' }, <!-- JSON headers -->
-    body: JSON.stringify({ email, password }) <!-- Sends data -->
+  const response = await fetch('/register', { // Fetches register endpoint
+    method: 'POST', // POST method
+    headers: { 'Content-Type': 'application/json' }, // JSON headers
+    body: JSON.stringify({ email, password }) // Sends data
   });
 
-  const data = await response.json(); <!-- Parses response -->
+  const data = await response.json(); // Parses response
 
-  if (response.ok) { <!-- If successful -->
-    alert(data.message); <!-- Shows success message -->
-    showLogin(); <!-- Switches to login -->
-  } else { <!-- If error -->
-    alert(data.message); <!-- Shows error message -->
+  if (response.ok) { // If successful
+    alert(data.message); // Shows success message
+    showLogin(); // Switches to login
+  } else { // If error
+    alert(data.message); // Shows error message
   }
-} catch (err) { <!-- Catches errors -->
-  alert('เชื่อมต่อเซิร์ฟเวอร์ไม่ได้'); <!-- Thai error message -->
+} catch (err) { // Catches errors
+  alert('เชื่อมต่อเซิร์ฟเวอร์ไม่ได้'); // Thai error message
 }
 
 });
