@@ -157,7 +157,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 200px; /* Bigger width */
+        width: 1000px;/*igger width */
     }
 
     h1 { /* Adjusts headings for mobile */
@@ -204,7 +204,7 @@ button:hover { /* Hover state for buttons */
 
     .logo img { /* Adjusts logo for mobile */
         width: 62px; /* Bigger width */
-        height: 42px /* Sets height proportionally */
+        height: 50px; /* Sets height proportionally */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
