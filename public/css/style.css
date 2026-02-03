@@ -189,8 +189,8 @@ button:hover { /* Hover state for buttons */
     }
 
     .header-bar button { /* Adjusts logout button for mobile */
-        padding: 8px ; /* Smaller padding */
-        font-size: 14px; /* Smaller font */
+        padding: 6px ; /* Smaller padding */
+        font-size: 12px; /* Smaller font */
         margin-left: 30px; /* Adds left margin */
     }
 
