@@ -193,7 +193,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
-        margin-top: -20px; /* Smaller top margin */
+        margin-top: -100px; /* Smaller top margin */
     }
 
     .homepage-container h1 { /* Adjusts welcome text for mobile */
@@ -204,13 +204,13 @@ button:hover { /* Hover state for buttons */
 
     .logo img { /* Adjusts logo for mobile */
         width: 62px; /* Bigger width */
-        height: 62px; /* Sets height proportionally */
+        height: 42px /* Sets height proportionally */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         min-height: 250px; /* Smaller height */
-        margin-top: 20px; /* Less margin */
+        margin-top: 10px; /* Less margin */
     }
 
     .homepage-container h1 { /* Adjusts welcome for mobile */
