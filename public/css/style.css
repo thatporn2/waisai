@@ -14,6 +14,7 @@ body { /* Applies to the entire page body */
 
 img { /* Applies to all images */
     max-width: 100%; /* Prevents overflow */
+    width: 500px; /* Default width */
     height: auto; /* Maintains aspect ratio */
 }
 
