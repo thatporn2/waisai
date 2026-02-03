@@ -157,7 +157,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 1000px;/*igger width */
+        width: 5000px;/*igger width */
     }
 
     h1 { /* Adjusts headings for mobile */
@@ -198,7 +198,7 @@ button:hover { /* Hover state for buttons */
 
     .homepage-container h1 { /* Adjusts welcome text for mobile */
         font-size: 1.3em; /* Smaller font for better fit */
-        letter-spacing: 1px; /* Reduced spacing */
+        letter-spacing: 5px; /* Reduced spacing */
     }
 }
 
