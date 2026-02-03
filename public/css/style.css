@@ -193,7 +193,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .homepage-container { /* Adjusts main container for mobile */
-        margin-top: 0px; /* Smaller top margin */
+        margin-top: -20px; /* Smaller top margin */
     }
 
     .homepage-container h1 { /* Adjusts welcome text for mobile */
@@ -203,7 +203,7 @@ button:hover { /* Hover state for buttons */
 }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 80px; /* Bigger width */
+        width: 62px; /* Bigger width */
         height: 62px; /* Sets height proportionally */
     }
 
