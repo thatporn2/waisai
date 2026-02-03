@@ -189,7 +189,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .header-bar button { /* Adjusts logout button for mobile */
-        padding: 8px 12px; /* Smaller padding */
+        padding: 8px ; /* Smaller padding */
         font-size: 14px; /* Smaller font */
         margin-left: 30px; /* Adds left margin */
     }
@@ -206,9 +206,10 @@ button:hover { /* Hover state for buttons */
 }
 
     .logo img { /* Adjusts logo for mobile */
-        width: 52px; /* Bigger width */
+        width: 58px; /* Bigger width */
         height: auto; /* Sets height proportionally */
         margin-left:20px ; /* Adds left margin */
+
     }
 
     .homepage-container { /* Adjusts main container for mobile */
