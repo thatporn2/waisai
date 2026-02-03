@@ -157,7 +157,7 @@ button:hover { /* Hover state for buttons */
     }
 
     .login-logo img { /* Adjusts logo for mobile */
-        width: 1000px;/*igger width */
+        width: 200px;/*igger width */
         height: auto; /* Maintains aspect ratio */
     }
 
