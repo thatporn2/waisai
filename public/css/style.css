@@ -156,8 +156,8 @@ button:hover { /* Hover state for buttons */
         border-radius: 12px; /* Smaller radius */
     }
 
-    .logo img { /* Adjusts logo for mobile */
-        width: 9000px;/*igger width */
+    .login-logo img { /* Adjusts logo for mobile */
+        width: 1000px;/*igger width */
         height: auto; /* Maintains aspect ratio */
     }
 
