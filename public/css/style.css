@@ -159,6 +159,20 @@ button:hover { /* Hover state for buttons */
     margin-left: 80px; /* Left margin */
     margin-right: 80px; /* Right margin */
 }
+
+/* Knowledge page only */
+.knowledge-page .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+.knowledge-page .round-img {
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
 /* Mobile Responsiveness */
 @media (max-width: 768px) { /* For screens 768px and below */
     body { /* Adjusts body for mobile */
@@ -227,6 +241,15 @@ button:hover { /* Hover state for buttons */
         margin-right: 80px; /* Right margin */
         justify-content: left; /* Centers items */
     }
+    .knowledge-page .menu {
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .knowledge-page .round-img {
+        width: 260px;
+        margin: 0;
+    }
      .homepage-container { /* Adjusts main container for mobile */
         width: 100%;
         max-width: 1400px; /* คุมจอบน desktop */
@@ -287,5 +310,18 @@ button:hover { /* Hover state for buttons */
 
     .homepage-container h1 { /* Enhances welcome for desktop */
         font-size: 2.5em; /* Larger font */
+    }
+    /* Knowledge page only */
+    .knowledge-page .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    }
+    .knowledge-page .round-img {
+    width: 500px;
+    height: auto;
+    margin: 0;
     }
 }
