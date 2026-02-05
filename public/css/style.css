@@ -241,8 +241,8 @@ button:hover { /* Hover state for buttons */
     }
     .menu {
         margin-top: 20px; /* Top margin */
-        margin-left: -85px; /* Left margin */
-        margin-right: 85px; /* Right margin */
+        margin-left: -80px; /* Left margin */
+        margin-right: 80px; /* Right margin */
         justify-content: left; /* Centers items */
     }
 
