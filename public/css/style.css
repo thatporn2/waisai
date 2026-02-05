@@ -231,7 +231,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         width: 95vw; /* 95% viewport */
-        height:1500px; /* Auto height */
+        height:1300px; /* Auto height */
         min-height: 250px; /* Smaller height */
         margin-top: 10px; /* Less margin */
     }
@@ -243,7 +243,6 @@ button:hover { /* Hover state for buttons */
         margin-top: 20px; /* Top margin */
         margin-left: 0px; /* Left margin */
         margin-right: 30px; /* Right margin */
-        display: flex; /* Flex container */
         justify-content: center; /* Centers items */
     }
 
