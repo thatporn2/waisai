@@ -134,6 +134,7 @@ button:hover { /* Hover state for buttons */
     text-align: center; /* Centers text */
     box-sizing: border-box; /* Includes padding */
     margin-top: 40px; /* Top margin increased for more space */
+    height: 900px; /* Fixed height */
 }
 
 .homepage-container h1 { /* Welcome message */
@@ -230,7 +231,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         width: 95vw; /* 95% viewport */
-        height:800px; /* Auto height */
+        height:900px; /* Auto height */
         min-height: 250px; /* Smaller height */
         margin-top: 10px; /* Less margin */
     }
@@ -254,7 +255,7 @@ button:hover { /* Hover state for buttons */
         margin-top:10px;
         max-width: 1400px; /* Larger width */
         width: 95vw; /* 90% viewport */
-        height: 800px; /* Auto height */
+        height: 1000px; /* Auto height */
         padding: 100px 40px 40px 40px; /* Padding */
     }
 
