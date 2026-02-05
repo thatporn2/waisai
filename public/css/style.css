@@ -231,7 +231,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         width: 95vw; /* 95% viewport */
-        height:900px; /* Auto height */
+        height:1500px; /* Auto height */
         min-height: 250px; /* Smaller height */
         margin-top: 10px; /* Less margin */
     }
