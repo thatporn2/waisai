@@ -250,7 +250,13 @@ button:hover { /* Hover state for buttons */
         width: 260px;
         margin: 0;
     }
-     .homepage-container { /* Adjusts main container for mobile */
+    .knowledge-page .homepage-container {
+        padding: 20px 10px 10px 10px; /* Less padding */
+        width: 100%;
+        height: auto;      /* ❌ อย่า fix */
+        min-height: 100vh; /* สูงตามเนื้อหา */
+    }
+    .homepage-container { /* Adjusts main container for mobile */
         width: 100%;
         max-width: 1400px; /* คุมจอบน desktop */
         min-height: 100vh; /* สูงตามเนื้อหา */
