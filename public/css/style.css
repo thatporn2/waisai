@@ -239,6 +239,11 @@ button:hover { /* Hover state for buttons */
     .homepage-container h2 { /* Adjusts welcome for mobile */
         font-size: 1.2em; /* Smaller font */
     }
+    .menu {
+        margin-top: 20px; /* Top margin */
+        margin-left: 0px; /* Left margin */
+        margin-right: 30px; /* Right margin */
+    }
 
 
 /* Desktop Enhancements */
