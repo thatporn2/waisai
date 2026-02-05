@@ -243,7 +243,7 @@ button:hover { /* Hover state for buttons */
         margin-top: 20px; /* Top margin */
         margin-left: 0px; /* Left margin */
         margin-right: 30px; /* Right margin */
-        justify-content: center; /* Centers items */
+        justify-content: left; /* Centers items */
     }
 
 
