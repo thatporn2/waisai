@@ -231,7 +231,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container { /* Adjusts main container for mobile */
         padding: 30px 20px 20px 20px; /* Less padding */
         width: 95vw; /* 95% viewport */
-        height:1300px; /* Auto height */
+        height:1400px; /* Auto height */
         min-height: 250px; /* Smaller height */
         margin-top: 10px; /* Less margin */
     }
@@ -241,8 +241,8 @@ button:hover { /* Hover state for buttons */
     }
     .menu {
         margin-top: 20px; /* Top margin */
-        margin-left: -90px; /* Left margin */
-        margin-right: 90px; /* Right margin */
+        margin-left: -85px; /* Left margin */
+        margin-right: 85px; /* Right margin */
         justify-content: left; /* Centers items */
     }
 
