@@ -163,8 +163,9 @@ button:hover { /* Hover state for buttons */
 @media (max-width: 768px) { /* For screens 768px and below */
     body { /* Adjusts body for mobile */
         padding: 10px; /* Reduces padding */
-         max-width: 100%;
+        max-width: 100%;
         overflow-x: hidden;
+        display: block; 
     }
 
     .login-container, .signup-container { /* Adjusts forms for mobile */
