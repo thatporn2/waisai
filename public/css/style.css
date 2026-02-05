@@ -144,7 +144,20 @@ button:hover { /* Hover state for buttons */
     margin-bottom: 12px; /* Bottom margin */
     margin-top: -20px; /* Moves message up */
 }
-
+.menu {
+    margin-top: 30px; /* Top margin */
+    margin-left: 10px; /* Left margin */
+    margin-right: 10px; /* Right margin */
+}
+.round-img {
+    border-radius: 26px; /* Rounded corners for images */
+    box-shadow: 0 4px 12px rgba(31, 96, 170, 0.1); /* Subtle shadow */
+    width: 400px; /* Fixed width for menu images */
+    height: auto; /* Maintains aspect ratio */
+    margin: 50px; /* Margin around images */
+    margin-left: 80px; /* Left margin */
+    margin-right: 80px; /* Right margin */
+}
 /* Mobile Responsiveness */
 @media (max-width: 768px) { /* For screens 768px and below */
     body { /* Adjusts body for mobile */
