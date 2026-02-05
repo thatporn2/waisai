@@ -165,7 +165,6 @@ button:hover { /* Hover state for buttons */
         padding: 10px; /* Reduces padding */
         max-width: 100%;
         overflow-x: hidden;
-        display: block; 
     }
 
     .login-container, .signup-container { /* Adjusts forms for mobile */
