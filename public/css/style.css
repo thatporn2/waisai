@@ -163,6 +163,8 @@ button:hover { /* Hover state for buttons */
 @media (max-width: 768px) { /* For screens 768px and below */
     body { /* Adjusts body for mobile */
         padding: 10px; /* Reduces padding */
+         max-width: 100%;
+        overflow-x: hidden;
     }
 
     .login-container, .signup-container { /* Adjusts forms for mobile */
@@ -219,6 +221,19 @@ button:hover { /* Hover state for buttons */
         letter-spacing: 1px; /* Reduced spacing */
         margin-left: 0%;
     }
+      .menu {
+        margin-top: 20px; /* Top margin */
+        margin-left: -80px; /* Left margin */
+        margin-right: 80px; /* Right margin */
+        justify-content: left; /* Centers items */
+    }
+     .homepage-container { /* Adjusts main container for mobile */
+        width: 100%;
+        max-width: 1400px; /* คุมจอบน desktop */
+        min-height: 100vh; /* สูงตามเนื้อหา */
+        height: auto;      /* ❌ อย่า fix */
+    }
+
 }
 
     .logo img { /* Adjusts logo for mobile */
@@ -239,13 +254,7 @@ button:hover { /* Hover state for buttons */
     .homepage-container h2 { /* Adjusts welcome for mobile */
         font-size: 1.2em; /* Smaller font */
     }
-    .menu {
-        margin-top: 20px; /* Top margin */
-        margin-left: -80px; /* Left margin */
-        margin-right: 80px; /* Right margin */
-        justify-content: left; /* Centers items */
-    }
-
+  
 
 /* Desktop Enhancements */
 @media (min-width: 769px) { /* For screens 769px and above */
